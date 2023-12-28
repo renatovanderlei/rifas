@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seu Cassino</title>
+	
+	<style>
+	body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.background {
+    background: url('casino.gif') no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(5px);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+}
+
+.link-container {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.3s;
+}
+
+.link-container:hover {
+    transform: scale(1.05);
+}
+
+	</style>
+</head>
+
+<body>
+    <div class="background"></div>
+    
+    <div class="container">
+        <div class="content">
+            <a href="Apostadores.html" class="link-container">
+                <h2>Lista de Apostadores</h2>
+            </a>
+            <a href="rifas.html" class="link-container">
+                <h2>Lista de Rifas</h2>
+            </a>
+            <a href="premios.html" class="link-container">
+                <h2>Lista de Prêmios</h2>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
